@@ -9,4 +9,4 @@ def abfrage(text,eingabe):
     if weiter == "n".casefold():programAn=False
     
 while programAn:
-    print("Im Verlauf: ",verlauf);abfrage(input('Gib ein Wort ein\n> '),input('Alles G\u0332roß, Alles K\u0332lein <G/K>\n> '))
+    print("Im Verlauf: ",verlauf);abfrage(input('Gib ein Wort ein\n> '),input('Alles g\u0332roß, Alles k\u0332lein <G/K>\n> '))
